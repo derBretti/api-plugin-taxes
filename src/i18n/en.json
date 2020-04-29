@@ -15,6 +15,7 @@
         },
         "taxFormFields": {
           "country": "Country",
+          "isTaxInclusive": "Rate is tax inclusive",
           "postal": "Postal code",
           "rate": "Rate",
           "ratePlaceholder": "Example: 0.05 means a 5% tax rate",

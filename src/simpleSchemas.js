@@ -16,6 +16,10 @@ export const Taxes = new SimpleSchema({
     type: String,
     optional: true
   },
+  rateIsTaxInclusive: {
+    type: Boolean,
+    optional: true
+  },
   sourcing: {
     type: String,
     allowedValues: ["destination", "origin"]
